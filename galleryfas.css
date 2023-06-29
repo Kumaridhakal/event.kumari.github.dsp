@@ -1,0 +1,127 @@
+.on{
+    display: inline-block;
+    height:100px;
+    width:200px;
+    margin-left:50px;
+    }
+@font-face {
+    font-family: "Roboto";
+    src: url("/resources/fonts/Roboto-Regular.ttf");
+}
+
+
+#container {  
+    width: 1000px;
+    margin:5px auto;
+    clear: both;
+}
+
+/* SIDEBAR */
+#sidebar {
+    background-color:black;
+    width: 100px;
+    height:400px;
+    float:left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 5px 5px 2px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family:cursive;
+
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin: 10px 15px;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    color: #0e4b91;
+}
+
+
+/* MAIN CONTENT */
+#main-content {
+    border:2px solid white;
+    width: 900px;
+    height: 400px;
+    float:left;
+    padding:5px;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 5px 5px 2px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 250px;
+    float: left;
+    margin: 5px;
+    
+}
+
+.card img {
+    width: 100%;
+    vertical-align: top;
+    
+}
+
+
+
+div.clearfix {
+    clear: both;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    display: inline-block;
+    left: 100px;
+    position: relative;
+    text-shadow:2px 2px 1px blue;
+    position: relative; left:500px; bottom: 100px;
+}
+#im{
+    display: inline-block;
+}
+body{
+    background-color:lightgrey;
+
+
+}
+footer{
+  font-size:20px;
+  font-family: cursive;
+  background-color:whitesmoke;
+  margin-top: 100px;
+
+}
+#loc{
+  height:30px;
+  width:30px;
+  display:inline-block;
+  margin-left:100px;
+  color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  #ku{
+    height: 150px;
+    width:100%;
+    margin-right:200px;
+  }
